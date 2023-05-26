@@ -106,6 +106,7 @@ img:hover {
 footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
     background-color: white;
+    border: solid 2px black;
 }
 /***** End of General Styling *****/
 
@@ -320,7 +321,7 @@ footer {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
     height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #f2f2f2; /* Sets the background color of the left columns */
+    background-color: white; /* Sets the background color of the left columns */
 }
 
 .Column_2 {
@@ -329,6 +330,22 @@ footer {
     padding: 1.6%;
     height: 450px;
     background-color: #4d4d4d;
+}
+
+.Column_3 {
+    float: left;
+    width: 50%; /* This ensures the column takes up half of the page width */
+    padding: 1.6%;
+    height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    background-color: #4d4d4d; /* Sets the background color of the left columns */
+}
+
+.Column_4 {
+    float: left;
+    width: 50%;
+    padding: 1.6%;
+    height: 450px;
+    background-color: white;
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
