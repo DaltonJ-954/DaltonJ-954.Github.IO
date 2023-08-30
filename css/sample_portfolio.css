@@ -64,9 +64,17 @@ p:hover {
 	transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
 }
 
+q:hover {
+    color: yellow;
+    font-size: 20px;
+    transition-duration: 2s;
+}
+
 /* Center class - this applies to all centered text */
 .center {
     text-align: center; /* This center aligns the text */
+    font-family: Poppins;
+    font-size: 1rem;
 }
 
 /* Center align elements hover effect - This only affects the quote, github link, and footer */
@@ -427,6 +435,7 @@ button:hover, .form-container .btn:hover {
     transition-duration: 1s; /* This makes the transition last 1 second */
     -webkit-transition-duration: 1s; /* For Safari 4.0-8.0 */
     border-color: silver; /* The border turns silver when the button is hovered over */
+    border-radius: 10px;
 }
 
 /* Submit button */
